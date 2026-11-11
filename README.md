@@ -2,6 +2,8 @@
 
 HumanEval에서 LLM이 생성한 코드를 **실행 채점(pass@1)**과 **LLM-as-judge**로 함께 평가해, judge가 실제 정답 여부와 얼마나 맞는지, 그리고 judge끼리 얼마나 일치하는지를 측정한다.
 
+**결과 요약은 [RESULTS.md](RESULTS.md)에 있습니다.**
+
 ## 연구 질문
 1. judge의 correctness 점수는 실제 테스트 통과 여부와 맞는가 (AUC, Spearman)
 2. 서로 다른 judge는 같은 코드에 비슷한 점수를 주는가 (항목별 weighted kappa)
